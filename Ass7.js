@@ -10,6 +10,7 @@ const test1 = [
 function interestCalculator(array) {
 var rate = 0;
 var interestData = [];
+let principal = "";
 for (var i = 0; i < array.length; i++){
     if (principal >= 2500){
         if (time > 1 && time < 3){
